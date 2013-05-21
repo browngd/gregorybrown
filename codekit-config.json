@@ -13,19 +13,6 @@
       "initialSize" : 75849,
       "fileType" : 8192
     },
-    "\/font-awesome\/less\/mixins.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/mixins.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/mixins.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/img\/mock-up-wine-bottle.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -39,8 +26,8 @@
     },
     "\/css\/backup\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/backup\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -57,51 +44,30 @@
       "initialSize" : 2725,
       "fileType" : 8192
     },
-    "\/less\/variables.less" : {
+    "\/css\/red.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/variables.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/variables.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/red.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/less\/styles.less" : {
+    "\/css\/bootstrap-styles.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/styles.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/styles.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/bootstrap-styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/font-awesome\/less\/bootstrap.less" : {
+    "\/css\/backup\/style-blue.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/bootstrap.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/bootstrap.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/css\/style3.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style3.css",
+      "inputAbbreviatedPath" : "\/css\/backup\/style-blue.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -127,19 +93,6 @@
       "outputAbbreviatedPath" : "\/js\/styleswitcher-ck.js",
       "fileType" : 64
     },
-    "\/font-awesome\/less\/font-awesome-ie7.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/font-awesome-ie7.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/font-awesome-ie7.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -160,14 +113,18 @@
       "initialSize" : 3875,
       "fileType" : 8192
     },
-    "\/font-awesome\/css\/font-awesome-ie7.css" : {
+    "\/less\/themes\/red\/red.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/css\/font-awesome-ie7.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/less\/themes\/red\/red.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/red.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/img\/mooning.png" : {
       "ignoreWasSetByUser" : 0,
@@ -180,28 +137,6 @@
       "initialSize" : 63654,
       "fileType" : 8192
     },
-    "\/css\/style2.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/font-awesome\/less\/variables.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/variables.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/variables.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/img\/mock-up-brochure.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -212,59 +147,6 @@
       "outputAbbreviatedPath" : "\/img\/mock-up-brochure.png",
       "initialSize" : 135979,
       "fileType" : 8192
-    },
-    "\/css\/morestyle.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/morestyle.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/bg-noise.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bg-noise.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/bg-noise.png",
-      "initialSize" : 132390,
-      "fileType" : 8192
-    },
-    "\/css\/responsive.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/responsive.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/font-awesome\/less\/icons.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/icons.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/icons.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/css\/blue_bkg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/blue_bkg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/blue_bkg.jpg",
-      "initialSize" : 3854,
-      "fileType" : 4096
     },
     "\/img\/mock-up-soda-can.png" : {
       "ignoreWasSetByUser" : 0,
@@ -299,15 +181,6 @@
       "initialSize" : 23345,
       "fileType" : 4096
     },
-    "\/font-awesome\/css\/font-awesome.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/css\/font-awesome.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/img\/gbrown_profile.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -318,6 +191,32 @@
       "outputAbbreviatedPath" : "\/img\/gbrown_profile.png",
       "initialSize" : 21284,
       "fileType" : 8192
+    },
+    "\/less\/themes\/blue\/blue-variables.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/themes\/blue\/blue-variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/blue-variables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/themes\/black\/style-black.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/themes\/black\/style-black.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/backup\/style-black.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -352,6 +251,19 @@
       "initialSize" : 142592,
       "fileType" : 8192
     },
+    "\/less\/themes\/white\/style-white.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/themes\/white\/style-white.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/style-white.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/img\/gbrown_profile.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -374,76 +286,58 @@
       "initialSize" : 2909,
       "fileType" : 4096
     },
-    "\/css\/bkg.jpg" : {
+    "\/css\/backup\/responsive.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bkg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/bkg.jpg",
-      "initialSize" : 7369,
-      "fileType" : 4096
-    },
-    "\/css\/style-black.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style-black.css",
+      "inputAbbreviatedPath" : "\/css\/backup\/responsive.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/font-awesome\/less\/font-awesome.less" : {
+    "\/css\/blue.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/blue.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/black.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/black.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/less\/themes\/black\/black.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/font-awesome.less",
+      "inputAbbreviatedPath" : "\/less\/themes\/black\/black.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/font-awesome.css",
+      "outputAbbreviatedPath" : "\/css\/black.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/css\/bootstrap.css" : {
+    "\/less\/themes\/red\/red-variables.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/linkedin.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/linkedin.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/linkedin.png",
-      "initialSize" : 1677,
-      "fileType" : 8192
-    },
-    "\/font-awesome\/css\/font-awesome-ie7.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/less\/themes\/red\/red-variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/red-variables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/css\/mooning.png" : {
       "ignoreWasSetByUser" : 0,
@@ -456,24 +350,48 @@
       "initialSize" : 63654,
       "fileType" : 8192
     },
-    "\/font-awesome\/css\/font-awesome.min.css" : {
+    "\/img\/linkedin.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/img\/linkedin.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/linkedin.png",
+      "initialSize" : 1677,
+      "fileType" : 8192
     },
-    "\/less\/responsive.less" : {
+    "\/less\/themes\/red\/style-red.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/responsive.less",
+      "inputAbbreviatedPath" : "\/less\/themes\/red\/style-red.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/responsive.css",
+      "outputAbbreviatedPath" : "\/css\/style-red.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/css\/backup\/font-awesome.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/backup\/font-awesome.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/less\/themes\/blue\/blue.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/themes\/blue\/blue.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/blue.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -488,6 +406,19 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/bootstrap-ck.js",
       "fileType" : 64
+    },
+    "\/less\/bootstrap-responsive.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap-responsive.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/bootstrap-responsive.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/img\/photo.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -511,27 +442,14 @@
       "initialSize" : 1456,
       "fileType" : 8192
     },
-    "\/css\/font-awesome.css" : {
+    "\/css\/backup\/styles.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/font-awesome.css",
+      "inputAbbreviatedPath" : "\/css\/backup\/styles.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/font-awesome\/less\/path.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/path.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/path.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/img\/mock-up-stencil-wallart.png" : {
       "ignoreWasSetByUser" : 0,
@@ -544,28 +462,46 @@
       "initialSize" : 166841,
       "fileType" : 8192
     },
-    "\/font-awesome\/less\/extras.less" : {
+    "\/less\/themes\/blue\/style-blue.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/extras.less",
+      "inputAbbreviatedPath" : "\/less\/themes\/blue\/style-blue.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/extras.css",
+      "outputAbbreviatedPath" : "\/css\/style-blue.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/font-awesome\/less\/core.less" : {
+    "\/css\/white.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/less\/core.less",
+      "inputAbbreviatedPath" : "\/css\/white.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/backup\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/backup\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/less\/themes\/black\/black-variables.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/themes\/black\/black-variables.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/css\/core.css",
+      "outputAbbreviatedPath" : "\/css\/black-variables.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -614,36 +550,18 @@
       "initialSize" : 3459,
       "fileType" : 8192
     },
-    "\/less\/bootstrap.less" : {
+    "\/less\/bootstrap-regular.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/bootstrap.less",
+      "inputAbbreviatedPath" : "\/less\/bootstrap-regular.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "\/css\/bootstrap-regular.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/style-blue.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style-blue.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/img\/bg.png" : {
       "ignoreWasSetByUser" : 0,
@@ -656,6 +574,19 @@
       "initialSize" : 10911,
       "fileType" : 8192
     },
+    "\/less\/themes\/white\/white-variables.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/themes\/white\/white-variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/white-variables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/img\/mock-up-catalog.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -667,15 +598,24 @@
       "initialSize" : 103803,
       "fileType" : 8192
     },
-    "\/less\/font-awesome.less" : {
+    "\/css\/backup\/style-black.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/backup\/style-black.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/less\/themes\/white\/white.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/font-awesome.less",
+      "inputAbbreviatedPath" : "\/less\/themes\/white\/white.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/font-awesome.css",
+      "outputAbbreviatedPath" : "\/css\/white.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -709,7 +649,7 @@
     "lessStrictImports" : 0,
     "sassAutoOutputPathStyle" : 2,
     "stylusAutoOutputPathReplace2" : "css",
-    "lessAutoOutputPathStyle" : 2,
+    "lessAutoOutputPathStyle" : 1,
     "genericWebpageFileExtensionsString" : "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
     "coffeeMinifyOutput" : 1,
     "javascriptOutputSuffix" : "-ck",
@@ -718,7 +658,7 @@
     "autoSyncProjectSettingsFile" : 1,
     "lessAutoOutputPathReplace1" : "less",
     "jadeAutoOutputPathReplace1" : "",
-    "lessAutoOutputPathRelativePath" : "..\/css",
+    "lessAutoOutputPathRelativePath" : "\/css",
     "hamlAutoOutputPathRelativePath" : "",
     "jsCheckerReservedNamesString" : "",
     "javascriptOutputStyle" : 1,
