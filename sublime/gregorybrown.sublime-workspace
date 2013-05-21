@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"comments",
+				"comments_template"
+			],
+			[
+				"the_t",
+				"the_title"
+			],
+			[
+				"register",
+				"register_sidebar"
+			],
+			[
+				"funct",
+				"function_exists"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"get_he",
+				"get_header"
+			],
+			[
+				"bootstra",
+				"bootstrap-styles"
+			],
+			[
+				"get_template_direc",
+				"get_template_directory_uri"
+			],
+			[
+				"get_template",
+				"get_template_directory_uri"
+			],
+			[
+				"wp_enqueue",
+				"wp_enqueue_style"
+			],
+			[
+				"wp_enquu",
+				"wp_enqueue_style"
+			],
+			[
+				"wp_enqu",
+				"wp_enqueue_style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 155.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gregbrown/Desktop/Home2/css/style-blue.css",
+		"/Users/gregbrown/Desktop/Home2/css/style-black.css",
+		"/Users/gregbrown/Desktop/Home2/index.html",
+		"/Applications/MAMP/htdocs/dev/strapdown/index.html",
+		"/Users/gregbrown/Desktop/Home2/index2.html.bk",
+		"/Users/gregbrown/Desktop/Home2/css/morestyle.css",
+		"/Users/gregbrown/Desktop/Home2/css/cv.css.bk",
+		"/Users/gregbrown/Desktop/Home2/css/style2.css",
+		"/Users/gregbrown/Desktop/Home2/css/style3.css",
+		"/Users/gregbrown/Desktop/Home2/css/backup/style3.css.bk.20130520",
+		"/Users/gregbrown/Desktop/Home2/js/stylesheetToggle.js",
+		"/Users/gregbrown/Desktop/Home2/css/cv.css",
+		"/Users/gregbrown/Desktop/home3/css/freelancer.css",
+		"/Users/gregbrown/Desktop/home3/index.html",
+		"/Applications/MAMP/htdocs/root/header.php",
+		"/Applications/MAMP/htdocs/root/index.php",
+		"/Users/gregbrown/Desktop/Home2/index4.html",
+		"/Users/gregbrown/Desktop/Home2/index5.html",
+		"/Users/gregbrown/Desktop/Home2/index2.html",
+		"/Users/gregbrown/Desktop/Home2/bootstrap/css/bootstrap.css",
+		"/Users/gregbrown/Desktop/Home2/index3.html",
+		"/Users/gregbrown/Desktop/home3/freelancer.css",
+		"/Users/gregbrown/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/gregbrown/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/style.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/header.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/footer.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/index.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/header.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/index.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/footer.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/style.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/page.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/single.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/home.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/sidebar.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/front-page.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/custom/css/bootstrap.min.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/custom/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/custom/style.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/custom/index.php",
+		"/Users/gregbrown/Library/Application Support/Sublime Text 2/Packages/WordPressDev/WordPressDev.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../images/noise.png",
+			"http://rd2inc.com/wp-content/uploads/2013/01/bg-noise.png",
+			"rgba(237,237,237, 0.5), rgba(153,153,153, 0.5))"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bg-noise.png",
+			"rgba(22,58,73, 0.5), rgba(58,100,119, 0.5))"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"btn",
+				"css/bootstrap.min.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}
