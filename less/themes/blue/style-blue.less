@@ -16,46 +16,46 @@ a.dotted {
 a.dotted:hover {
   text-decoration: none;
 }
-hr.symbol {
+hr.subtitle1 {
   padding: 0; border: none;
   border-top: medium double #333;
   text-align: center !important;
-  color: #333;
+  color: @subtitleColor;
   font-family: @sansFontFamily;
-  text-shadow: 0px 1px 40px #ffffff;
+  text-shadow: @subtitleTextShadow;
   max-width: 470px !important;
   margin-left: auto;
   margin-right: auto;
 }
-hr.symbol:after {
-  content: "Freelance Web Designer";
+hr.subtitle1:after {
+  content: @hrSubtitle1Content;
   display: inline-block;
   position: relative;
   top: -0.5em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: url("bg-blue.png");
+  background: @backgroundImage;
 }
-hr.symbolb {
+hr.subtitle2 {
   padding: 0px;
   border: none;
   border-top: medium double #333;
-  color: #333;
+  color: @subtitleColor;
   font-family: @sansFontFamily;
   text-align: center;
-  text-shadow: 0px 1px 40px #ffffff;
+  text-shadow: @subtitleTextShadow;
   max-width: 470px !important;
   margin-left: auto;
   margin-right: auto;
 }
-hr.symbolb:after {
-  content: "Network/Systems Administrator";
+hr.subtitle2:after {
+  content: @hrSubtitle2Content;
   display: inline-block;
   position: relative;
   top: -0.5em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: url("bg-blue.png");
+  background: @backgroundImage;
 }
 .platform {
   margin: 20px auto;
@@ -80,7 +80,7 @@ hr.symbolb:after {
   padding-left: 50px;
   padding-bottom:15px;
   padding-right: 50px;
-  background: @headerBackground repeat scroll 0 0 #474747;
+  background: @backgroundImage repeat scroll 0 0 #474747;
   background-color: #4E7B91;
   border:0px solid #4E7B91;
   border-radius:15px 15px 0px 0px;
@@ -88,9 +88,11 @@ hr.symbolb:after {
   -webkit-border-radius: 15px 15px 0px 0px;
   -khtml-border-radius: 15px 15px 0px 0px;
 }
+@-moz-document url-prefix() {
 .line {
   padding-bottom: 1px;
-}
+  }
+ }
 .pic-div {
   padding-bottom: 20px;
   padding-right: 20px;

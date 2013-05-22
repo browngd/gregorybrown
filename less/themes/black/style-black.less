@@ -1,68 +1,55 @@
-body {
-  color: @textColor;
-  background-color: @bodyBackground;
-  font-family: @sansFontFamily;
-}
 h1 {
   font: @h1Font;
   font-size: 2em;
   line-height: 1.2em;
   margin-bottom: 20px;
-  text-shadow: 0px 2px 3px #555;
+  text-shadow: @nameTextShadow
 }
-a {
-  color: @linkColor;
-}
-a.dotted:hover {
-  text-decoration: none;
-  color: @linkColorHover;
-}
-hr.symbol {
+hr.subtitle1 {
   padding: 0; border: none;
   border-top: medium double #333;
   text-align: center !important;
-  color: #333;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
-  text-shadow: 0px 1px 30px #C4C0C0;
+  color: @subtitleColor;
+  font-family: @sansFontFamily;
+  text-shadow: @subtitleTextShadow;
   max-width: 470px !important;
   margin-left: auto;
   margin-right: auto;
 }
-hr.symbol:after {
-  content: "Freelance Web Designer";
+hr.subtitle1:after {
+  content: @hrSubtitle1Content;
   display: inline-block;
   position: relative;
   top: -0.5em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: url("bg.png");
+  background: @backgroundImage;
 }
-hr.symbolb {
+hr.subtitle2 {
   padding: 0px;
   border: none;
   border-top: medium double #333;
-  color: #333;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
+  color: @subtitleColor;
+  font-family: @sansFontFamily;
   text-align: center;
-  text-shadow: 0px 1px 30px #C4C0C0;
+  text-shadow: @subtitleTextShadow;
   max-width: 470px !important;
   margin-left: auto;
   margin-right: auto;
 }
-hr.symbolb:after {
-  content: "Network/Systems Administrator";
+hr.subtitle2:after {
+  content: @hrSubtitle2Content;
   display: inline-block;
   position: relative;
   top: -0.5em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: url("bg.png");
+  background: @backgroundImage;
 }
 .platform {
   margin: 20px auto;
   background: #474747;
-  -webkit-box-shadow: 0 0px 20px -1px #000000;
-  -moz-box-shadow: 0 0px 20px -1px #000000;
+
   box-shadow: 0 0px 20px -1px #000000;
   border: 0px solid #444;
   border-radius: 15px;
@@ -88,9 +75,13 @@ hr.symbolb:after {
   -webkit-border-radius: 15px 15px 0px 0px;
   -khtml-border-radius: 15px 15px 0px 0px;
 }
+
+@-moz-document url-prefix() {
 .line {
   padding-bottom: 1px;
-}
+  }
+ }
+
 /*.pic-div {
   padding-bottom: 10px;
   padding-right: 20px;
@@ -163,7 +154,7 @@ hr.symbolb:after {
   height: 145px;
   width: 30px;
   background-color: #434343;
-  background: url("bg.png");
+  background: @backgroundImage;
   border-top: 3px solid ##1F1F1F;
   border-bottom: 3px solid ##1F1F1F;
   border-left: 3px solid ##1F1F1F;
@@ -344,7 +335,7 @@ hr.symbolb:after {
   h1 {
   font-size: 1.7em;
   line-height: 1.7em;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
+  font-family: @sansFontFamily;
   margin-bottom: 20px;
   text-shadow: 0px 2px 3px #555;
 }
@@ -354,7 +345,7 @@ hr.symbolb:after {
   h1 {
   font-size: 1.3em;
   line-height: 1.5em;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
+  font-family: @sansFontFamily;
   margin-bottom: 20px;
   text-shadow: 0px 2px 3px #555;
 }
@@ -378,7 +369,7 @@ hr.symbolb:after {
   h1 {
   font-size: 1.3em;
   line-height: 1.3em;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
+  font-family: @sansFontFamily;
   margin-bottom: 20px;
   text-shadow: 0px 2px 3px #555;
 }
