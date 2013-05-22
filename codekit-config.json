@@ -33,15 +33,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/css\/red.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/red.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/css\/bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -52,6 +43,15 @@
       "outputAbbreviatedPath" : "\/css\/bg.png",
       "initialSize" : 2725,
       "fileType" : 8192
+    },
+    "\/css\/red.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/red.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/bootstrap-styles.css" : {
       "ignoreWasSetByUser" : 0,
@@ -113,6 +113,17 @@
       "initialSize" : 3875,
       "fileType" : 8192
     },
+    "\/img\/mooning.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/mooning.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mooning.png",
+      "initialSize" : 63654,
+      "fileType" : 8192
+    },
     "\/less\/themes\/red\/red.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -125,17 +136,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/img\/mooning.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mooning.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mooning.png",
-      "initialSize" : 63654,
-      "fileType" : 8192
     },
     "\/img\/mock-up-brochure.png" : {
       "ignoreWasSetByUser" : 0,
@@ -339,17 +339,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/css\/mooning.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/mooning.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/mooning.png",
-      "initialSize" : 63654,
-      "fileType" : 8192
-    },
     "\/img\/linkedin.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -359,6 +348,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/linkedin.png",
       "initialSize" : 1677,
+      "fileType" : 8192
+    },
+    "\/css\/mooning.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/mooning.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/mooning.png",
+      "initialSize" : 63654,
       "fileType" : 8192
     },
     "\/less\/themes\/red\/style-red.less" : {
