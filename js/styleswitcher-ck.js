@@ -1,0 +1,1 @@
+function setActiveStyleSheet(e){var t,n,r;for(t=0;n=document.getElementsByTagName("link")[t];t++)if(n.getAttribute("rel").indexOf("style")!=-1&&n.getAttribute("title")){n.disabled=!0;n.getAttribute("title")==e&&(n.disabled=!1)}};
