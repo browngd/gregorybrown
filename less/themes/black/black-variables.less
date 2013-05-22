@@ -11,7 +11,7 @@
 // --------------------------------------------------
 
 @backgroundImage:      url("bg.png");
-
+@h1Font:                70px/78px Questrial,Arial,Helvetica,sans-serif;
 
 
 // Grays
@@ -56,9 +56,17 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 @sansFontFamily:        Questrial,Arial,Helvetica,sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@serifFontFamily:       Questrial,Arial,Helvetica,sans-serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
+@baseFontSize:          14px;
+@baseFontFamily:        @sansFontFamily;
+@baseLineHeight:        20px;
+@altFontFamily:         @serifFontFamily;
+
+@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsColor:         inherit; // empty to use BS default, @textColor
 
 // Component sizing
 // -------------------------

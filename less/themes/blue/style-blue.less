@@ -3,8 +3,10 @@ body {
   background-color: @bodyBackground;
 }
 h1 {
-  font: 70px/78px Questrial,Arial,Helvetica,sans-serif;
-  margin: 0;
+  font: @h1Font;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 20px;
   text-shadow: 0px 2px 3px #27697F;
 }
 a.dotted {
@@ -19,7 +21,7 @@ hr.symbol {
   border-top: medium double #333;
   text-align: center !important;
   color: #333;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
+  font-family: @sansFontFamily;
   text-shadow: 0px 1px 40px #ffffff;
   max-width: 470px !important;
   margin-left: auto;
@@ -39,7 +41,7 @@ hr.symbolb {
   border: none;
   border-top: medium double #333;
   color: #333;
-  font-family: Questrial,Arial,Helvetica,sans-serif;
+  font-family: @sansFontFamily;
   text-align: center;
   text-shadow: 0px 1px 40px #ffffff;
   max-width: 470px !important;
@@ -128,7 +130,7 @@ hr.symbolb:after {
 }
 .buttons {
   text-align: center;
-  font-family: 'Droid Sans', sans-serif;
+  font: @sansFontFamily;
 }
 .name-text {
   font-size: 36px;
@@ -349,10 +351,25 @@ hr.symbolb:after {
   .item-name {
     font-weight: bold;
   }
+  h1 {
+  font-size: 1.7em;
+  line-height: 1.7em;
+  font-family: Questrial,Arial,Helvetica,sans-serif;
+  margin-bottom: 20px;
+  text-shadow: 0px 2px 3px #555;
+}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+  h1 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-family: Questrial,Arial,Helvetica,sans-serif;
+  margin-bottom: 20px;
+  text-shadow: 0px 2px 3px #555;
+}
+
   .name-text {
     margin-top: 10px;
   }
@@ -387,6 +404,13 @@ hr.symbolb:after {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  h1 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-family: Questrial,Arial,Helvetica,sans-serif;
+  margin-bottom: 20px;
+  text-shadow: 0px 2px 3px #555;
+}
   .name-text {
     margin-top: 10px;
   }

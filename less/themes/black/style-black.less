@@ -1,11 +1,12 @@
 body {
   color: @textColor;
   background-color: @bodyBackground;
+  font-family: @sansFontFamily;
 }
 h1 {
+  font: @h1Font;
   font-size: 2em;
   line-height: 1.2em;
-  font-family: @sansFontFamily;
   margin-bottom: 20px;
   text-shadow: 0px 2px 3px #555;
 }
@@ -128,9 +129,11 @@ hr.symbolb:after {
   filter: none;
   -webkit-filter: grayscale(0%);
 }
+.btn {
+  color: #bfbdbd;
+}
 .buttons {
   text-align:center;
-  font-family: 'Droid Sans', sans-serif;
 }
 .name-text {
   font-size: 36px;
@@ -331,7 +334,6 @@ hr.symbolb:after {
 
   .item-name { max-width:550px; font-size: 16px; font-family: 'Droid Sans', sans-serif; font-weight: bold; color: #000000;}
   .item-desc { max-width:550px; font-size:14px; font-style: italic;}
-
 }
 
 @media (max-width: 900px) {

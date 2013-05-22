@@ -7906,8 +7906,10 @@ body {
   background-color: #282727;
 }
 h1 {
-  font: 70px/78px Questrial, Arial, Helvetica, sans-serif;
-  margin: 0;
+  font: 0.8974358974358975px Questrial, Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 20px;
   text-shadow: 0px 2px 3px #27697F;
 }
 a.dotted {
@@ -8042,7 +8044,7 @@ hr.symbolb:after {
 }
 .buttons {
   text-align: center;
-  font-family: 'Droid Sans', sans-serif;
+  font: Questrial, Arial, Helvetica, sans-serif;
 }
 .name-text {
   font-size: 36px;
@@ -8300,9 +8302,23 @@ hr.symbolb:after {
   .item-name {
     font-weight: bold;
   }
+  h1 {
+    font-size: 1.7em;
+    line-height: 1.7em;
+    font-family: Questrial, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 3px #555;
+  }
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+  h1 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: Questrial, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 3px #555;
+  }
   .name-text {
     margin-top: 10px;
   }
@@ -8336,6 +8352,13 @@ hr.symbolb:after {
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  h1 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-family: Questrial, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 3px #555;
+  }
   .name-text {
     margin-top: 10px;
   }
