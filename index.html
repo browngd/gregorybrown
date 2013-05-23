@@ -29,32 +29,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#"><i class="icon-home"></i>&nbsp;&nbsp;Gregory Brown</a>
+            <a class="brand" href="#" rel="tooltip" data-placement="bottom" title="Home"><i class="icon-home"></i>&nbsp;&nbsp;Greg Brown</a>
             </ul>
                     <ul class="nav pull-right">
                         <li>
-                            <a title="" data-placement="bottom" data-toggle="tooltip" href="http://www.linkedin.com/browngd" data-original-title="LinkedIn"><i class="icon-linkedin-sign icon-large"></i>
+                            <a href="http://www.linkedin.com/browngd" rel="tooltip" data-placement="bottom" title="LinkedIn"><i class="icon-linkedin-sign icon-large"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/browngd" data-toggle="tooltip" rel="tooltip" data-originaltitle="Twitter"><i class="icon-twitter icon-large"></i>
+                            <a href="https://twitter.com/browngd" rel="tooltip" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-large"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/browngd" data-toggle="tab" rel="tooltip" data-original-title="Facebook"><i class="icon-facebook-sign icon-large"></i>
+                            <a href="https://www.facebook.com/browngd" rel="tooltip" data-placement="bottom" title="Facebook"><i class="icon-facebook-sign icon-large"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://plus.google.com/114483832302146340327/posts" data-toggle="tab" rel="tooltip" data-original-title="Google+"><i class="icon-google-plus-sign icon-large"></i>
+                            <a href="https://plus.google.com/114483832302146340327/posts" rel="tooltip" data-placement="bottom" title="Google+"><i class="icon-google-plus-sign icon-large"></i>
                             </a>
                         </li>
                     </ul>
             <!-- .nav-collapse -->
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                  <li class="active"><a href="#resume" data-toggle="tab"><i class="icon-briefcase"></i>&nbsp;&nbsp;&nbsp;Resume</a></li>
-                  <li class=""><a href="#portfolio" data-toggle="tab"><i class="icon-picture"></i>&nbsp;&nbsp;&nbsp;Portfolio</a></li>
-                  <li class=""><a href="index.html"><i class="icon-envelope"></i>&nbsp;&nbsp;&nbsp;Contact</a></li>
+                  <li class="active"><a href="#resume" rel="tooltip" data-placement="bottom" title="Resume"><i class="icon-briefcase"></i>&nbsp;&nbsp;&nbsp;Resume</a></li>
+                  <li class=""><a href="#portfolio" rel="tooltip" data-placement="bottom" title="Portfolio"><i class="icon-picture"></i>&nbsp;&nbsp;&nbsp;Portfolio</a></li>
+                  <li class=""><a href="index.html" rel="tooltip" data-placement="bottom" title="Contact Me"><i class="icon-envelope"></i>&nbsp;&nbsp;&nbsp;Contact</a></li>
               </ul>
 
             </div>
@@ -351,8 +351,7 @@
     <!-- /footer -->
 </div>
 <!-- <script src="js/javascript-combined.js"></script> -->
-<script src="js/jquery-1.9.1.min.js"></script>
-<script src="js/styleswitcher.js"></script>
+<script src="js/javascript-combined.js"></script>
 <script type="text/javascript">
     // Bind event to every .btn-navbar button
  $('.btn-navbar').click(function(){
@@ -367,7 +366,8 @@
      }
  });
 </script>
-<script> $(function(){ $('a[rel=tooltip]').tooltip(); });​</script>
+
+
 <!--[if IE]>
 <script type="text/javascript" src="PIE/PIE.js"></script>
 <![endif]-->
@@ -452,5 +452,10 @@ $(function() {
 });
 </script>
 <![endif]-->
+<script>
+    jQuery(document).ready(function() {
+        jQuery('[rel="tooltip"]').tooltip({trigger : 'hover'});
+    })
+    </script>
 </body>
 </html>
