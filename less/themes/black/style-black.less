@@ -84,6 +84,7 @@ hr.subtitle2:after {
 
 .line {
   text-align: center;
+
 }
 @-moz-document url-prefix() {
 .line {
@@ -142,18 +143,26 @@ border-radius:20px;
 }
 .buttons {
   text-align:center;
+  margin-bottom: 10px;
 }
 .name-text {
   font-size: 36px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   line-height: 36px;
+  padding-bottom: 10px;
 }
 .major-text {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 1.7em;
+  margin-bottom: 20px;
   text-align: center;
+    margin-top: -25px;
+    text-shadow: @subtitleTextShadow;
+}
+.footer-text {
+  font-size: 18px;
 }
 .margin-top-10 {
   margin-top: 10px;
@@ -368,7 +377,8 @@ border-radius:20px;
   text-shadow: 0px 2px 3px #555;
 }
   .address {margin-left: 0px;}
-  .name-text {margin-top: 10px;}
+  .name-text {margin-top: 10px; }
+ .major-text {margin-top: -20px; font-size: 24px;}
   .section-title {width: 100%;
   border:0px solid #4E7B91; border-radius:0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; -khtml-border-radius: 0px 0px 0px 0px;
 
@@ -392,6 +402,7 @@ border-radius:20px;
   text-shadow: 0px 2px 3px #555;
 }
   .name-text {margin-top: 10px;}
+  .major-text {margin-top: -20px; font-size: 24px;}
   .main {padding: 20px 0px 20px 0px;}
   .platform {margin: 0px auto;}
   .header {padding:10px; padding-bottom:0px;}
