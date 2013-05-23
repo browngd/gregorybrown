@@ -15,6 +15,7 @@ hr.subtitle1 {
   max-width: 470px !important;
   margin-left: auto;
   margin-right: auto;
+  overflow:visible;
 }
 hr.subtitle1:after {
   content: @hrSubtitle1Content;
@@ -24,6 +25,7 @@ hr.subtitle1:after {
   font-size: 1.5em;
   padding: 0 0.25em;
   background: @backgroundImage;
+  overflow:visible;
 }
 hr.subtitle2 {
   padding: 0px;
@@ -36,6 +38,7 @@ hr.subtitle2 {
   max-width: 470px !important;
   margin-left: auto;
   margin-right: auto;
+  overflow:visible;
 }
 hr.subtitle2:after {
   content: @hrSubtitle2Content;
@@ -45,6 +48,7 @@ hr.subtitle2:after {
   font-size: 1.5em;
   padding: 0 0.25em;
   background: @backgroundImage;
+  overflow:visible;
 }
 .platform {
   margin: 20px auto;
@@ -82,40 +86,48 @@ hr.subtitle2:after {
   }
  }
 
-/*.pic-div {
-  padding-bottom: 10px;
-  padding-right: 20px;
-}*/
+.pic-div {
+border-radius:20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius: 20px;
+
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+    width: 170px;
+  height: 236px;
+}
 .pic {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
   -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
   -webkit-backface-visibility: hidden; /* Fix for transition flickering */
-  background-clip: padding-box;
-  background-color: white;
-  border: 10px solid rgba(0, 0, 0, 0.2);
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px; -webkit-border-radius: 20px 20px 20px 20px; -khtml-border-radius: 20px 20px 20px 20px;
   background-image: url(../img/gbrown_profile.jpg);
   width: 170px;
   height: 236px;
+  border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
-.pic-under {
-  width: 170px;
-  height: 236px;
- background-image: url(../img/gbrown_profile.jpg);
- border: 0px solid rgba(0, 0, 0, 0.2);
-  border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
-  -khtml-border-radius: 15px 15px 15px 15px;
-   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-  -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
-  -webkit-backface-visibility: hidden; /* Fix for transition flickering */
-}
+// .pic-under {
+//   width: 170px;
+//   height: 236px;
+//  background-image: url(../img/gbrown_profile.jpg);
+//  border: 0px solid rgba(0, 0, 0, 0.2);
+//   border-radius: 15px 15px 15px 15px;
+//   -moz-border-radius: 20px 20px 20px 20px;
+//   -webkit-border-radius: 20px 20px 20px 20px;
+//   -khtml-border-radius: 15px 15px 15px 15px;
+//    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+//   filter: gray; /* IE6-9 */
+//   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+//   -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+//   -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+// }
 .pic:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
@@ -331,7 +343,7 @@ hr.subtitle2:after {
   .section-title {width:100%;}
   .content { padding-left: 20px; padding-right:20px; }
   .item-name {font-weight: bold;}
-  .pic-div {text-align: center; padding-right: 5px;}
+  .pic-div {text-align: center; margin-right: auto; margin-left: auto; }
   h1 {
   font-size: 1.7em;
   line-height: 1.7em;
@@ -355,7 +367,7 @@ hr.subtitle2:after {
   border:0px solid #4E7B91; border-radius:0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; -khtml-border-radius: 0px 0px 0px 0px;
 
   }
-  .pic-div {text-align: center; padding-right: 5px;}
+  .pic-div {text-align: center;}
   .pic {position: relative; float:none; text-align:center;}
   .content { padding-left: 20px; padding-right:20px; }
   .item-name {font-weight: bold;}
