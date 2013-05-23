@@ -7,7 +7,10 @@
         <meta name="description" content="Professional Resume for Greg Brown">
         <meta name="author" content="Gregory Brown">
         <style type="text/css">
-        body { padding-top: 45px; }
+        body { padding-top: 35px; }
+        </style>
+        <style type="text/css">
+        body { padding-top: 55px\9; }
         </style>
         <link href="css/black.css" type="text/css" rel="stylesheet"  title="black">
         <link href="css/blue.css" type="text/css" rel="alternate stylesheet" title="blue">
@@ -351,6 +354,13 @@
 <script type="text/javascript" src="PIE/PIE.js"></script>
 <![endif]-->
 <script type="text/javascript">
+    $(function() {
+    if (window.PIE) {
+        $('.style-switcher').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
     $(function() {
     if (window.PIE) {
         $('.platform').each(function() {
