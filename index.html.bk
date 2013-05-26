@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Resume - Greg Brown</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Professional Resume for Greg Brown">
+        <meta name="author" content="Gregory Brown">
+        <style type="text/css">
+        body { padding-top: 35px; }
+        </style>
+        <style type="text/css">
+        body { padding-top: 55px\9; }
+        </style>
+        <link href="css/black.css" type="text/css" rel="stylesheet"  title="black">
+        <link href="css/blue.css" type="text/css" rel="alternate stylesheet" title="blue">
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <script type="text/javascript">
+            var $buoop = {vs:{i:7,f:11,o:11,s:5,n:9}}
+            $buoop.ol = window.onload;
+            window.onload=function(){
+             try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+             var e = document.createElement("script");
+             e.setAttribute("type", "text/javascript");
+             e.setAttribute("src", "http://browser-update.org/update.js");
+             document.body.appendChild(e);
+            }
+        </script>
+
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" style="position:fixed">
+    <div class="navbar-inner">
+        <div class="container">
+            <!-- <button class="btn btn-navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> -->
+            <ul class="nav">
+                <li>
+                    <a href="#" rel="tooltip" data-placement="bottom" title="Home"><i class="icon-home icon-large"></i>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#resume" rel="tooltip" data-placement="bottom" title="Resume"><i class="icon-file-alt icon-large"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#portfolio" rel="tooltip" data-placement="bottom" title="Portfolio"><i class="icon-picture icon-large"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="index.html" rel="tooltip" data-placement="bottom" title="Contact"><i class="icon-envelope-alt icon-large"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav pull-right">
+                <li>
+                    <a href="http://www.linkedin.com/browngd" rel="tooltip" data-placement="bottom" title="LinkedIn"><i class="icon-linkedin-sign icon-large"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/browngd" rel="tooltip" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-large"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/browngd" rel="tooltip" data-placement="bottom" title="Facebook"><i class="icon-facebook-sign icon-large"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/114483832302146340327/posts" rel="tooltip" data-placement="bottom" title="Google+"><i class="icon-google-plus-sign icon-large"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- .nav-collapse
+            <div class="nav-collapse collapse">
+            </div>
+            .nav-collapse -->
+        </div>
+    </div>
+</div>
+<!-- /navbar -->
+<!-- style switcher -->
+<div class="style-binding">
+<div class="style-switcher">
+    <a href="#" onclick="setActiveStyleSheet('black');return false;">
+        <div class="style-switcher-black"></div>
+    </a>
+    <a href="#" onclick="setActiveStyleSheet('blue');return false;">
+        <div class="style-switcher-blue"></div>
+    </a>
+    <a href="#" onclick="setActiveStyleSheet('red');return false;">
+        <div class="style-switcher-red"></div>
+    </a>
+    <a href="#" onclick="setActiveStyleSheet('white');return false;">
+        <div class="style-switcher-white"></div>
+    </a>
+</div>
+</div>
+<!-- /style switcher -->
+<div class="platform">
+    <!-- header -->
+    <div class="header">
+        <div class="row">
+            <div class="margin-bottom-5">
+                <div class="span pic-div">
+                <div class="pic"></div>
+                </div>
+                <div class="name-text">
+                    <h1>Gregory Brown</h1>
+                </div>
+                <div class="major-text">
+                    <div class="line">
+                        Freelance Web Designer
+                    </div>
+                    <div class="line">
+                        Network/Systems Administrator
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn btn-danger btn-large btn-inverse">
+                        <i class="icon-rocket icon-large"></i>
+                        &nbsp;&nbsp;Hire Me!
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="btn btn-success btn-large btn-inverse">
+                        <i class="icon-picture icon-large"></i>
+                        &nbsp;&nbsp;Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /header -->
+    <div class="main">
+        <div id="myTabContent" class="tab-content">
+            <!-- resume tab -->
+            <div class="tab-pane fade active in" id="resume">
+                <!-- objective -->
+                <div class="row">
+                    <div class="span section-title">Objective</div>
+                    <div class="span section-body">
+                        <div class="content">
+                        Challenging career opportunities, which would allow me to utilize my experience, employ my excellent interpersonal skills, and enable me to make a positive contribution.
+                        </div>
+                        <br /><br />
+                    </div>
+                </div>
+                <!-- /objective -->
+                <div class="seperator hidden-phone hidden-tablet"></div>
+                <!-- work experience -->
+                <div class="row">
+                    <div class="span section-title">Work Experience</div>
+                    <div class="span section-body">
+                        <div class="content">
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="span">
+                                        <div class="item-name">Brown G Designs/South Branch Designs</div>
+                                        <div class="item-desc">Freelance Web Designer/Developer</div>
+                                    </div>
+                                    <div class="item-period pull-right span">1999 - Present</div>
+                                </div>
+                                <div class="margin-top-10">
+                                    <ul>
+                                        <li>Planning, design and implementation of complete web sites (from musical artist to small businesses).</li>
+                                        <li>Design with standards compliant code with emphasis on browser compatibility, accessibility, and search engine optimization.</li>
+                                        <li>XHTML &amp; CSS coding, image editing, basic SEO and analytics reporting.</li>
+                                        <li>Developed Responsive web sites using Twitter Bootstrap</li>
+                                        <li>Implementation and custimization using CMS (Wordpress &amp; Joomla)</li>
+                                        <li>Used technologies such as HTML5, CSS3, PHP, MySQL along with jQuery &amp; Twitter Bootstrap.</li>
+                                        <li>Graphics creation and editing through Adobe Photoshop.</li>
+                                        <li>Worked closely with clients to achieve goals and expectations.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inner-seperator"></div>
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="span">
+                                        <div class="item-name">Potomac Valley Hospital, Keyser, WV</div>
+                                        <div class="item-desc">IT Technician / Biomedical Engineering Technician</div>
+                                    </div>
+                                    <div class="item-period pull-right span">2012 - 2013</div>
+                                </div>
+                                <div class="margin-top-10">
+                                    <ul>
+                                        <li>Troubleshooting of IT and biomedical devices and systems.</li>
+                                        <li>Network and systems administration.</li>
+                                        <li>Implementation and deployment of IT systems.</li>
+                                        <li>Desktop support.</li>
+                                        <li>Disaster recovery management</li>
+                                        <li>Prioritize and solve issues.</li>
+                                        <li>Manage releases and User Acceptance Testing.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inner-seperator"></div>
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="span">
+                                        <div class="item-name">Summit Financial Group, Moorefield, WV</div>
+                                        <div class="item-desc">IT Technician &amp; Technical Support Representative</div>
+                                    </div>
+                                    <div class="item-period pull-right span">2007 - 2012</div>
+                                </div>
+                                <div class="margin-top-10">
+                                    <ul>
+                                        <li>Systems/Network Administration.</li>
+                                        <li>Compliance testing.</li>
+                                        <li>Disaster recovery management.</li>
+                                        <li>Desktop Support</li>
+                                        <li>Implementation and deployment of IT systems.</li>
+                                        <li>Troubleshooting of IT systems.</li>
+                                        <li>Prioritize and solve issues.</li>
+                                        <li>Managed releases and User Acceptance Testing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inner-seperator"></div>
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="span">
+                                        <div class="item-name">Time Warner Cable, Austin, TX</div>
+                                        <div class="item-desc">Technical Support Representative</div>
+                                    </div>
+                                    <div class="item-period pull-right span">2005 - 2007</div>
+                                </div>
+                                <div class="margin-top-10">
+                                    <ul>
+                                        <li>Provided technical support via Phone, Email &amp; Chat.</li>
+                                        <li>Support for Phone, Internet &amp; TV services.</li>
+                                        <li>Maintained customer records.</li>
+                                        <li>Communicated effectively with clients.</li>
+                                        <li>Dispatch and routing of field technicians.</li>
+                                        <li>Maintained technical documentation.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inner-seperator"></div>
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="span">
+                                        <div class="item-name">US Army, Ft. Hood, TX, Iraq; Ft. Bragg, NC; Camp Stanley, Korea</div>
+                                        <div class="item-desc">IT Systems Administrator &amp; TSignal Systems Support Specialist</div>
+                                    </div>
+                                    <div class="item-period pull-right span">1993 - 2004</div>
+                                </div>
+                                <div class="margin-top-10">
+                                    <ul>
+                                        <li>Systems/Network Administration.</li>
+                                        <li>Compliance testing.</li>
+                                        <li>Disaster recovery management.</li>
+                                        <li>Desktop Support</li>
+                                        <li>Implementation and deployment of IT systems.</li>
+                                        <li>Troubleshooting of IT systems.</li>
+                                        <li>Prioritize and solve issues.</li>
+                                        <li>Managed releases and User Acceptance Testing</li>
+                                    </ul>
+                                    <br /><br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /work experience -->
+            <div class="seperator hidden-phone hidden-tablet"></div>
+            <!-- education -->
+            <div class="row">
+                <div class="span section-title">Education</div>
+                <div class="span section-body">
+                    <div class="content">
+                        <div class="clearfix">
+                            <div class="row">
+                                <div class="span">
+                                    <div class="item-name">Regents Bachelor of Arts</div>
+                                    <div class="item-desc">West Virginia University</div>
+                                </div>
+                                <div class="item-period pull-right span">2010 - Present</div>
+                            </div>
+                        </div>
+                        <div class="inner-seperator"></div>
+                        <div class="clearfix">
+                            <div class="row">
+                                <div class="span">
+                                    <div class="item-name">Technical Certification</div>
+                                    <div class="item-desc">US Army Signal School</div>
+                                </div>
+                                <div class="item-period pull-right span">1993 - 1994</div>
+                            </div>
+                        <br /><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /education -->
+            <div class="seperator hidden-phone hidden-tablet"></div>
+            <!-- skills -->
+            <div class="row">
+                <div class="span section-title">Skills</div>
+                <div class="span section-body">
+                    <div class="content">
+                        <div class="clearfix">
+                            <div class="span6">Windows</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 85%;">85%</div>
+                            </div>
+                            <div class="span6">Windows Server</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 70%;">70%</div>
+                            </div>
+                            <div class="span6">Mac</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 60%;">60%</div>
+                            </div>
+                            <div class="span6">Linux</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 50%;">50%</div>
+                            </div>
+                            <div class="span6">Photoshop</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 65%;">65%</div>
+                            </div>
+                            <div class="span6">PHP</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 45%;">45%</div>
+                            </div>
+                            <div class="span6">Javascript</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 50%;">50%</div>
+                            </div>
+                            <div class="span6">HTML5</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 85%;">85%</div>
+                            </div>
+                            <div class="span6">CSS3</div>
+                            <div class="span6 progress-line">
+                                <div class="bar" style="width: 85%;">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                <br /><br />
+                </div>
+            </div>
+            <!-- /skills -->
+            <div class="seperator hidden-phone hidden-tablet"></div>
+            <!-- interests -->
+            <div class="row">
+                <div class="span section-title">Interests</div>
+                <div class="span section-body">
+                    <div class="content">
+                        Singing, cooking, photography.
+                    </div>
+                </div>
+            </div>
+            <!-- /interests -->
+            <div class="clearfix margin-bottom-10 pull-right">
+                <a href="javascript:;" onclick="jQuery('html,body').animate({scrollTop: jQuery('.header').offset().top}, 'slow');">top</a>
+            </div>
+        </div>
+        <!-- /resume tab -->
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="row-fluid">
+            <div class="margin-bottom-5">
+                <div class="footer-text">
+                    Copyright @ Gregory Brown.  All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+</div>
+<script src="js/javascript-combined.js"></script>
+<script type="text/javascript">
+    // Bind event to every .btn-navbar button
+ $('.btn-navbar').click(function(){
+     // Select the .nav-collapse within the same .navbar as the current button
+     var nav = $(this).closest('.navbar').find('.nav-collapse');
+     // If it has a height, hide it
+     if (nav.height() != 0) {
+         nav.height(0);
+     // If it's collapsed, show it
+     } else {
+         nav.height('auto');
+     }
+ });
+</script>
+<!--[if IE]>
+<script type="text/javascript" src="PIE/PIE.js"></script>
+<![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+    $(function() {
+    if (window.PIE) {
+        $('.style-switcher').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.platform').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.header').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.pic-div').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.pic').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.btn').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.main').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.section-body ul').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.section-title').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+    $(function() {
+    if (window.PIE) {
+        $('.item-name').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+$(function() {
+    if (window.PIE) {
+        $('.progress-line').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+</script>
+<![endif]-->
+<script>
+    jQuery(document).ready(function() {
+        jQuery('[rel="tooltip"]').tooltip({trigger : 'hover'});
+    })
+</script>
+</body>
+</html>
