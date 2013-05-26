@@ -4,3 +4,5 @@
 *.json
 
 codekit-config.json
+
+blog/wp-config.php
