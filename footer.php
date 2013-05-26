@@ -117,5 +117,6 @@ $(function() {
         jQuery('[rel="tooltip"]').tooltip({trigger : 'hover'});
     })
 </script>
+
 </body>
 </html>
