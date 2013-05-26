@@ -1,0 +1,1 @@
+(function(e){e(document).ready(function(){e(".feature-slider a").click(function(t){e(".featured-posts section.featured-post").css({opacity:0,visibility:"hidden"});e(this.hash).css({opacity:1,visibility:"visible"});e(".feature-slider a").removeClass("active");e(this).addClass("active");t.preventDefault()})})})(jQuery);

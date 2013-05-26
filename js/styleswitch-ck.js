@@ -1,0 +1,5 @@
+/**
+* Styleswitch stylesheet switcher built on jQuery
+* Under an Attribution, Share Alike License
+* By Kelvin Luck ( http://www.kelvinluck.com/ )
+**/function createCookie(e,t,n){if(n){var r=new Date;r.setTime(r.getTime()+n*24*60*60*1e3);var i="; expires="+r.toGMTString()}else var i="";document.cookie=e+"="+t+i+"; path=/"}function readCookie(e){var t=e+"=",n=document.cookie.split(";");for(var r=0;r<n.length;r++){var i=n[r];while(i.charAt(0)==" ")i=i.substring(1,i.length);if(i.indexOf(t)==0)return i.substring(t.length,i.length)}return null}function eraseCookie(e){createCookie(e,"",-1)}(function(e){function t(t){e("link[@rel*=style][title]").each(function(e){this.disabled=!0;this.getAttribute("title")==t&&(this.disabled=!1)});createCookie("style",t,365)}e(document).ready(function(){e(".styleswitch").click(function(){t(this.getAttribute("rel"));return!1});var n=readCookie("style");n&&t(n)})})(jQuery);
