@@ -72,7 +72,7 @@ function echoActiveClassIfRequestMatches($requestUri)
                     </a>
                 </li>
                 <li <?=echoActiveClassIfRequestMatches("contact")?>>
-                    <a href="contact.php" rel="tooltip" data-placement="bottom" title="Contact"><i class="icon-envelope-alt icon-large icon-fixed-width"></i>
+                    <a href="contact-form.php" rel="tooltip" data-placement="bottom" title="Contact"><i class="icon-envelope-alt icon-large icon-fixed-width"></i>
                     </a>
                 </li>
             </ul>
