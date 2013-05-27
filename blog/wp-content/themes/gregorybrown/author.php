@@ -1,20 +1,20 @@
-<?php
-/**
- * The template for displaying Author Archive pages.
- *
- * Used to display archive-type pages for posts by an author.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
+<?php require 'header.php'; ?>
 
-get_header(); ?>
+<!-- Page is working.  7:08am 20130527 -->
 
-	<section id="primary" class="site-content">
-		<div id="content" role="main">
+<div class="main">
+        <div class="row-fluid">
+            <div id="custom-sidebar">
+   <ul>
+      <?php
+      if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('custom-sidebar') ) :
+      endif; ?>
+   </ul>
+   <div style="clear:both"></div>
+</div>
+
+            <div class="span content">
+                    <div class="span8 posts">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -67,8 +67,16 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
 
-		</div><!-- #content -->
-	</section><!-- #primary -->
+		</div> <!-- #posts -->
+                <div class="span4 pull-right">
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+                        <?php get_sidebar(); ?>
+
+                </div>
+                </div><!-- #content -->
+
+            <!-- #section body -->
+        </div><!-- row -->
+    </div> <!-- #main -->
+
+<?php require 'footer.php'; ?>

@@ -1,18 +1,20 @@
-<?php
-/**
- * The template for displaying image attachments.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
+<?php require 'header.php'; ?>
 
-get_header(); ?>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
+
+<div class="main">
+        <div class="row-fluid">
+            <div id="custom-sidebar">
+   <ul>
+      <?php
+      if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('custom-sidebar') ) :
+      endif; ?>
+   </ul>
+   <div style="clear:both"></div>
+</div>
+
+            <div class="span content">
+                    <div class="span8 posts">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -100,7 +102,16 @@ endif;
 
 			<?php endwhile; // end of the loop. ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
+		</div> <!-- #posts -->
+                <div class="span4 pull-right">
 
-<?php get_footer(); ?>
+                        <?php get_sidebar(); ?>
+
+                </div>
+                </div><!-- #content -->
+
+            <!-- #section body -->
+        </div><!-- row -->
+    </div> <!-- #main -->
+
+<?php require 'footer.php'; ?>

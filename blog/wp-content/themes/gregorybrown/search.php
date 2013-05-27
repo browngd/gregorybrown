@@ -1,16 +1,21 @@
-<?php
-/**
- * The template for displaying Search Results pages.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
+<?php require 'header.php'; ?>
 
-get_header(); ?>
 
-	<section id="primary" class="site-content">
-		<div id="content" role="main">
+
+<div class="main">
+        <div class="row-fluid">
+            <div id="custom-sidebar">
+   <ul>
+      <?php
+      if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('custom-sidebar') ) :
+      endif; ?>
+   </ul>
+   <div style="clear:both"></div>
+</div>
+
+            <div class="span content">
+                    <div class="span8 posts">
+
 
 		<?php if ( have_posts() ) : ?>
 
@@ -42,8 +47,16 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		</div><!-- #content -->
-	</section><!-- #primary -->
+		</div> <!-- #posts -->
+                <div class="span4 pull-right">
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+                        <?php get_sidebar(); ?>
+
+                </div>
+                </div><!-- #content -->
+
+            <!-- #section body -->
+        </div><!-- row -->
+    </div> <!-- #main -->
+
+<?php require 'footer.php'; ?>

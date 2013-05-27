@@ -1,29 +1,36 @@
-<?php
-/**
- * The template for displaying all pages.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
+<?php require 'header.php'; ?>
 
-get_header(); ?>
+<!-- Page is working.  7:08am 20130527 -->
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
+<div class="main">
+        <div class="row-fluid">
+            <div id="custom-sidebar">
+   <ul>
+      <?php
+      if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('custom-sidebar') ) :
+      endif; ?>
+   </ul>
+   <div style="clear:both"></div>
+</div>
+
+            <div class="span content">
+                    <div class="span8 posts">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 				<?php comments_template( '', true ); ?>
 			<?php endwhile; // end of the loop. ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
+		</div> <!-- #posts -->
+                <div class="span4 pull-right">
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+                        <?php get_sidebar(); ?>
+
+                </div>
+                </div><!-- #content -->
+
+            <!-- #section body -->
+        </div><!-- row -->
+    </div> <!-- #main -->
+
+<?php require 'footer.php'; ?>
