@@ -1,3 +1,4 @@
+<?php require('./blog/wp-blog-header.php'); ?>
 <?php require 'header.php'; ?>
 
 <div class="main">

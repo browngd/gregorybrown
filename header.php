@@ -25,9 +25,9 @@ function echoActiveClassIfRequestMatches($requestUri)
         body { padding-top: 55px\9; }
     </style>
 
-    <link href="css/black.css" type="text/css" rel="stylesheet"  title="black">
-    <link href="css/blue.css" type="text/css" rel="alternate stylesheet" title="blue">
-<script type="text/javascript" src="js/styleswitcher.js"></script>
+    <link href="<?php echo home_url(); ?>/css/black.css" type="text/css" rel="stylesheet"  title="black">
+    <link href="<?php echo home_url(); ?>/css/blue.css" type="text/css" rel="alternate stylesheet" title="blue">
+<script type="text/javascript" src="<?php echo home_url(); ?>/js/styleswitcher.js"></script>
     <!--[if IE 7]>
     <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
     <![endif]-->
@@ -56,23 +56,23 @@ function echoActiveClassIfRequestMatches($requestUri)
             </button> -->
             <ul class="nav">
                 <li <?=echoActiveClassIfRequestMatches("index")?>>
-                    <a href="index.php" rel="tooltip" data-placement="bottom" title="Home"><i class="icon-home icon-large icon-fixed-width"></i>
+                    <a href="<?php echo home_url(); ?>/index.php" rel="tooltip" data-placement="bottom" title="Home"><i class="icon-home icon-large icon-fixed-width"></i>
                     </a>
                 </li>
                 <li <?=echoActiveClassIfRequestMatches("blog")?>>
-                    <a href="blog.php" rel="tooltip" data-placement="bottom" title="Blog"><i class="icon-align-left icon-large icon-fixed-width"></i>
+                    <a href="<?php echo home_url(); ?>/blog.php" rel="tooltip" data-placement="bottom" title="Blog"><i class="icon-align-left icon-large icon-fixed-width"></i>
                     </a>
                 </li>
                 <li <?=echoActiveClassIfRequestMatches("resume")?>>
-                    <a href="resume.php" rel="tooltip" data-placement="bottom" title="Resume"><i class="icon-file-alt icon-large icon-fixed-width"></i>
+                    <a href="<?php echo home_url(); ?>/resume.php" rel="tooltip" data-placement="bottom" title="Resume"><i class="icon-file-alt icon-large icon-fixed-width"></i>
                     </a>
                 </li>
                 <li <?=echoActiveClassIfRequestMatches("portfolio")?>>
-                    <a href="portfolio.php" rel="tooltip" data-placement="bottom" title="Portfolio"><i class="icon-picture icon-large icon-fixed-width"></i>
+                    <a href="<?php echo home_url(); ?>/portfolio.php" rel="tooltip" data-placement="bottom" title="Portfolio"><i class="icon-picture icon-large icon-fixed-width"></i>
                     </a>
                 </li>
                 <li <?=echoActiveClassIfRequestMatches("contact")?>>
-                    <a href="contact-form.php" rel="tooltip" data-placement="bottom" title="Contact"><i class="icon-envelope-alt icon-large icon-fixed-width"></i>
+                    <a href="<?php echo home_url(); ?>/contact-form.php" rel="tooltip" data-placement="bottom" title="Contact"><i class="icon-envelope-alt icon-large icon-fixed-width"></i>
                     </a>
                 </li>
             </ul>

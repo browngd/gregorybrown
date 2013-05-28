@@ -12,7 +12,7 @@
     </div>
     <!-- /footer -->
 </div>
-<script src="js/javascript-combined.js"></script>
+<script src="<?php echo home_url(); ?>js/javascript-combined.js"></script>
 <script type="text/javascript">
     // Bind event to every .btn-navbar button
  $('.btn-navbar').click(function(){
