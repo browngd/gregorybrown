@@ -42,7 +42,7 @@ function echoActiveClassIfRequestMatches($requestUri)
         document.body.appendChild(e);
         }
     </script>
-
+<?php wp_head(); ?>
 </head>
 <body>
     <!-- navbar -->

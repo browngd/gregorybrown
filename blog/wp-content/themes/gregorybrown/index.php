@@ -15,6 +15,7 @@
 
             <div class="span content">
                     <div class="span8 posts">
+
                     <?php if ( have_posts() ) : ?>
 
                         <?php /* Start the Loop */ ?>
@@ -56,6 +57,7 @@
 
 
                     <?php endif; // end have_posts() check ?>
+
                 </div> <!-- #posts -->
                 <div class="span4 pull-right">
 

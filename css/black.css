@@ -1115,6 +1115,10 @@ div#custom-sidebar li.widget{width:300px;margin:0 0 15px 20px;float:left;}
 div#custom-sidebar li.widget h2{margin-bottom:15px;}
 .posts{margin-bottom:30px;}
 .archive-title,.page-title,.widget-title,.entry-content th,.comment-content th{font-size:11px;font-size:0.785714286rem;line-height:2.181818182;font-weight:bold;text-transform:uppercase;color:#636363;}
+.post-date{background-color:#BAB6B6;border:5px solid rgba(0, 0, 0, 0.3);border-radius:10px 10px 10px 10px;box-shadow:10px 10px 10px 0;float:right;margin-left:10px;padding:45px 12px 0;position:relative;}
+.post-date .post-day{font-size:45px;left:5px;line-height:45px;position:absolute;top:0;}
+.post-date .post-month{font-size:25px;text-transform:uppercase;}
+.post-date .post-year{display:block;position:absolute;right:-5px;top:15px;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);}
 article.format-quote footer.entry-meta,article.format-link footer.entry-meta,article.format-status footer.entry-meta{font-size:11px;font-size:0.785714286rem;line-height:2.181818182;}
 .alignleft{float:left;}
 .alignright{float:right;}
@@ -1134,8 +1138,8 @@ img.wp-smiley,.rsswidget img{border:0;border-radius:0;box-shadow:none;margin-bot
 #nav-above{padding:24px 0;padding:1.714285714rem 0;}
 #nav-above{display:none;}
 .paged #nav-above{display:block;}
-.nav-previous,.previous-image{float:left;width:50%;}
-.nav-next,.next-image{float:right;text-align:right;width:50%;}
+.nav-previous,.previous-image{float:left;width:50%;margin-bottom:25px;}
+.nav-next,.next-image{float:right;text-align:right;width:50%;margin-bottom:25px;}
 .nav-single+.comments-area,#comment-nav-above{margin:48px 0;margin:3.428571429rem 0;}
 embed,iframe,object,video{max-width:100%;}
 .entry-content .twitter-tweet-rendered{max-width:100% !important;}
@@ -1148,12 +1152,12 @@ img.size-full,img.size-large,img.header-image,img.wp-post-image{max-width:100%;h
 .author.archive .author-info{border-top:0;margin:0 0 48px;margin:0 0 3.428571429rem;}
 .author.archive .author-avatar{margin-top:0;}
 .entry-meta{clear:both;}
-.entry-header{margin-bottom:24px;margin-bottom:1.714285714rem;}
+.entry-header{margin-bottom:15px;margin-bottom:1.071rem;}
 .entry-header img.wp-post-image{margin-bottom:24px;margin-bottom:1.714285714rem;}
-.entry-header .entry-title{font-size:20px;font-size:1.428571429rem;line-height:1.2;font-weight:normal;}
+.entry-header .entry-title{font-size:20px;font-size:1.428571429rem;line-height:1.2;font-weight:normal;margin-bottom:-20px;}
 .entry-header .entry-title a{text-decoration:none;}
 .entry-header .entry-format{margin-top:24px;margin-top:1.714285714rem;font-weight:normal;}
-.entry-header .comments-link{margin-top:24px;margin-top:1.714285714rem;font-size:13px;font-size:0.928571429rem;line-height:1.846153846;color:#757575;}
+.entry-header .comments-link{margin-top:1.714285714rem;line-height:1.846153846;color:#757575;}
 .comments-link a,.entry-meta a{color:#757474;}
 .comments-link a:hover,.entry-meta a:hover{color:#4f4e4e;}
 article.sticky .featured-post{border-top:4px double #ededed;border-bottom:4px double #ededed;color:#757575;font-size:13px;font-size:0.928571429rem;line-height:3.692307692;margin-bottom:24px;margin-bottom:1.714285714rem;text-align:center;}
@@ -1190,7 +1194,7 @@ img.aligncenter{margin-top:12px;margin-top:0.857142857rem;margin-bottom:12px;mar
 .entry-content td,.comment-content td{border-top:1px solid #ededed;padding:6px 10px 6px 0;}
 .site-content article{border-bottom:4px double #ededed;margin-bottom:72px;margin-bottom:5.142857143rem;padding-bottom:24px;padding-bottom:1.714285714rem;word-wrap:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;}
 .page-links{clear:both;line-height:1.714285714;}
-footer.entry-meta{margin-top:24px;margin-top:1.714285714rem;font-size:13px;font-size:0.928571429rem;line-height:1.846153846;color:#757575;}
+footer.entry-meta{margin-top:24px;margin-top:1.714285714rem;line-height:1.846153846;color:#757575;}
 .single-author .entry-meta .by-author{display:none;}
 .mu_register h2{color:#757575;font-weight:normal;}
 .archive-header,.page-header{margin-bottom:48px;margin-bottom:3.428571429rem;padding-bottom:22px;padding-bottom:1.571428571rem;border-bottom:1px solid #ededed;}

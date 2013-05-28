@@ -117,6 +117,6 @@ $(function() {
         jQuery('[rel="tooltip"]').tooltip({trigger : 'hover'});
     })
 </script>
-
+<?php wp_footer(); ?>
 </body>
 </html>
