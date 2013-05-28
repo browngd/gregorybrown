@@ -8,3 +8,5 @@ codekit-config.json
 blog/wp-config.php
 
 .htaccess
+/blog/.htaccess
+blog/.htaccess
