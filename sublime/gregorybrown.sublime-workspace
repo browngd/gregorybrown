@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
 				"padding",
-				"padding-right"
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"imor",
+				"@import	@import url(${0});"
 			],
 			[
 				"trans",
@@ -28,10 +48,6 @@
 				"max-height"
 			],
 			[
-				"margin",
-				"margin-right"
-			],
-			[
 				"mar",
 				"margin-right"
 			],
@@ -42,10 +58,6 @@
 			[
 				"background-",
 				"background-color"
-			],
-			[
-				"margin-",
-				"margin-left"
 			],
 			[
 				"comments",
@@ -115,15 +127,15 @@
 		"selected_items":
 		[
 			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
 				"Package Control: inst",
 				"Package Control: Install Package"
 			],
 			[
 				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: install",
 				"Package Control: Install Package"
 			],
 			[
@@ -152,6 +164,113 @@
 	},
 	"file_history":
 	[
+		"/Users/gregbrown/sites/gregorybrown/less/new/new-variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/style-black.less",
+		"/Users/gregbrown/sites/gregorybrown/header.php",
+		"/Users/gregbrown/sites/gregorybrown/css/bootstrap.css",
+		"/Users/gregbrown/sites/gregorybrown/test.php",
+		"/Users/gregbrown/sites/gregorybrown/less/new/style-new.less",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/index.php",
+		"/Users/gregbrown/sites/gregorybrown/footer.php",
+		"/Users/gregbrown/sites/gregorybrown/less/new/new.less",
+		"/Users/gregbrown/sites/gregorybrown/index.php",
+		"/Users/gregbrown/sites/gregorybrown/test2.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/functions.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/content.php",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/blue/style-blue.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/blue/blue.less",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/author.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/page.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/single.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/comments.php",
+		"/Users/gregbrown/sites/dev/bootstrap/less/code.less",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/style.css",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/header.php.bk.html",
+		"/Users/gregbrown/sites/gregorybrown/resume.php",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/black-variables.less",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/header.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-config.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/tag.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/search.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/image.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/content.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/content-image.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/content-aside.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/comments.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/category.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/author.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/single.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/index.php",
+		"/Users/gregbrown/sites/gregorybrown/wp-content/themes/gregorybrown/page.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-config.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/gregorybrown/content-aside.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-settings.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/style.css",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/sidebar.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/sidebar-front.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/content-aside.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/page-templates/front-page.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/functions.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/index.php",
+		"/Users/gregbrown/sites/gregorybrown/contact-form.php",
+		"/Users/gregbrown/sites/gregorybrown/contact-form-submission.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/index.php",
+		"/Users/gregbrown/sites/gregorybrown/blog/wp-content/themes/twentytwelve/header.php",
+		"/Users/gregbrown/sites/gregorybrown/contactForm.php",
+		"/Users/gregbrown/sites/gregorybrown/js/styleswitcher.js",
+		"/Users/gregbrown/sites/gregorybrown/serversideSwitch.html",
+		"/Users/gregbrown/sites/gregorybrown/style-switcher.php",
+		"/Users/gregbrown/sites/gregorybrown/less/bootstrap-regular.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/black.less",
+		"/Users/gregbrown/sites/dev/bootstrap/less/navbar.less",
+		"/Users/gregbrown/sites/gregorybrown/blog.php",
+		"/Users/gregbrown/sites/gregorybrown/contact.php",
+		"/Users/gregbrown/sites/gregorybrown/portfolio.php",
+		"/Users/gregbrown/sites/gregorybrown/offline.appcache",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/blue/blue-variables.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/FAvariables.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/extras.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/FAbootstrap.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/core.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/font-awesome.less",
+		"/Users/gregbrown/sites/gregorybrown/css/blue.css",
+		"/Users/gregbrown/sites/gregorybrown/css/black.css",
+		"/Users/gregbrown/sites/dev/bootstrap/less/buttons.less",
+		"/Users/gregbrown/sites/dev/docs/my-variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/red/red.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/white/white.less",
+		"/Users/gregbrown/sites/dev/bootstrap/less/bootstrap.less",
+		"/Users/gregbrown/sites/gregorybrown/less/bootstrap-responsive.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/path.less",
+		"/Users/gregbrown/sites/gregorybrown/less/bootstrap-styles.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/red/red-variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/red/style-red.less",
+		"/Users/gregbrown/sites/gregorybrown/less/variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/bootstrap.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/bootstrap-styles.less",
+		"/Users/gregbrown/sites/gregorybrown/less/font-awesome.less",
+		"/Users/gregbrown/sites/dev/bootstrap/less/variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/responsive.less",
+		"/Users/gregbrown/sites/gregorybrown/less/bootstrap.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/white/white-variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/responsive.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/red/variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/blue/variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/styles.less",
+		"/Users/gregbrown/sites/gregorybrown/css/style-blue.css",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/white/variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes/black/variables.less",
+		"/Users/gregbrown/sites/gregorybrown/less/style-black.less",
+		"/Users/gregbrown/sites/gregorybrown/less/themes.less",
+		"/Users/gregbrown/sites/gregorybrown/less/style-white.less",
+		"/Users/gregbrown/sites/gregorybrown/less/style-blue.less",
+		"/Users/gregbrown/sites/gregorybrown/less/style-red.less",
+		"/Users/gregbrown/Desktop/Home2/backup/20130520/good pic code",
+		"/Users/gregbrown/Desktop/Home2/backup/20130520/style-black.css",
+		"/Users/gregbrown/sites/gregorybrown/css/styles.css",
+		"/Users/gregbrown/sites/gregorybrown/css/font-awesome.css",
+		"/Users/gregbrown/sites/gregorybrown/less/jquery.less",
+		"/Users/gregbrown/sites/dev/Font-Awesome/build/assets/font-awesome/less/variables.less",
 		"/Users/gregbrown/Desktop/Home2/css/style-blue.css",
 		"/Users/gregbrown/Desktop/Home2/css/style-black.css",
 		"/Users/gregbrown/Desktop/Home2/index.html",
@@ -172,30 +291,7 @@
 		"/Users/gregbrown/Desktop/Home2/index5.html",
 		"/Users/gregbrown/Desktop/Home2/index2.html",
 		"/Users/gregbrown/Desktop/Home2/bootstrap/css/bootstrap.css",
-		"/Users/gregbrown/Desktop/Home2/index3.html",
-		"/Users/gregbrown/Desktop/home3/freelancer.css",
-		"/Users/gregbrown/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/gregbrown/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/functions.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/style.css",
-		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/header.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/footer.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/CodePen/index.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/header.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/index.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/footer.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/functions.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/style.css",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/page.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/single.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/home.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/sidebar.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/Bootpress/front-page.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/custom/css/bootstrap.min.css",
-		"/Applications/MAMP/htdocs/wp-content/themes/custom/functions.php",
-		"/Applications/MAMP/htdocs/wp-content/themes/custom/style.css",
-		"/Applications/MAMP/htdocs/wp-content/themes/custom/index.php",
-		"/Users/gregbrown/Library/Application Support/Sublime Text 2/Packages/WordPressDev/WordPressDev.sublime-settings"
+		"/Users/gregbrown/Desktop/Home2/index3.html"
 	],
 	"find":
 	{
@@ -213,6 +309,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<p><a class=\"btn\" href=\"#\">View details &raquo;</a></p>",
+			".comments-link",
+			"post-date",
+			"entry-header",
+			"entry-meta",
+			"leave a reply",
+			"white-space",
+			"comment",
+			"white-space",
+			"code",
+			"nowrap",
+			"white-space",
+			"code",
+			"widget",
+			"<br /><br />",
+			"</br>",
+			"clip",
+			";\n",
+			"Questrial,Arial,Helvetica,sans-serif",
+			"../../../../dev/bootstrap/less/",
+			"../../../../../dev/bootstrap/less/",
+			"../../../",
 			"../images/noise.png",
 			"http://rd2inc.com/wp-content/uploads/2013/01/bg-noise.png",
 			"rgba(237,237,237, 0.5), rgba(153,153,153, 0.5))"
@@ -223,6 +341,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"<br />",
+			"@sansFontFamily",
+			"",
+			"../../../../",
 			"bg-noise.png",
 			"rgba(22,58,73, 0.5), rgba(58,100,119, 0.5))"
 		],
