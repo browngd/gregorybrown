@@ -3,7 +3,7 @@
 
     <div class="content">
       <!-- flex slider -->
-      <div class="flexslider slider">
+      <div class="flexslider slider hidden-phone">
         <ul class="slides">
           <li>
             <p><br /><br /></p>
