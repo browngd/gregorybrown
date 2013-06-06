@@ -6,8 +6,10 @@
         <div class="row-fluid">
           <div class="span3">
             <div class="sidebar-header-pic">
-              <image src="img/gbrown_profile_small.png" class="img-rounded">
-                <p><h3>About</h3></p>
+              <div class="icon-orange-page">
+                  <i class="icon-html5 icon-4x"></i>
+                  <p><h3>Web Design</h3></p>
+                </div>
               </div>
             </div><!--/span-->
             <div class="span9">

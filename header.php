@@ -29,7 +29,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li class="nav-header">Residential</li>
-                  <li><a href="#">Web Design</a></li>
+                  <li><a href="web-design.php">Web Design</a></li>
                   <li><a href="#">Computer Repair</a></li>
                   <li><a href="#">Computer Upgrades</a></li>
                   <li><a href="#">Virus Removal</a></li>
