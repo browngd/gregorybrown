@@ -21,7 +21,15 @@
         <div class="span4">
           <div class="widget">
             <h5 class="widgetheading">From The Blog</h5>
-
+            <?php query_posts('showposts=5'); ?>
+            <?php while (have_posts()) : the_post(); ?>
+            <ul>
+              <li>
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="Go to <?php the_title(); ?>">
+            <?php the_title(); ?>
+            </a></li>
+          </ul>
+            <?php endwhile;?>
 
           </div>
         </div>
@@ -74,7 +82,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/javascript-combined.js"></script>
+    <script src="<?php echo home_url(); ?>/js/javascript-combined.js"></script>
 <script>
       !function ($) {
         $(function(){
@@ -117,7 +125,7 @@
 
     </script>
 -->
-<script src="js/jquery.flexslider-min.js"></script>
+<script src="<?php echo home_url(); ?>/js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
   // Can also be used with $(document).ready()
 $(window).load(function() {

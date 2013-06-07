@@ -27,6 +27,10 @@
             </p>
             <p><br /><br /></p>
           </li>
+          <li>
+            <h3>Fully Responsive Design</h3>
+            <img src="img/slider/mockup8.png">
+          </li>
         </ul>
       </div>
       <!-- /.flex slider -->

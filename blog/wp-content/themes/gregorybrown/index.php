@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require '<?php echo home_url(); ?>/header.php'; ?>
 
 <!-- Page is working.  7:08am 20130527 -->
 

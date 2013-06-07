@@ -1,4 +1,15 @@
-<?php ?>
+<?php require('blog/wp-blog-header.php'); ?>
+<?php
+
+function echoActiveClassIfRequestMatches($requestUri)
+{
+    $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+
+    if ($current_file_name == $requestUri)
+        echo 'class="active"';
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +19,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Full service Computer and Technology Solutions" content="">
     <meta name="BitCrunched!" content="">
-    <link href="css/new.css" rel="stylesheet">
+    <link href="<?php echo home_url(); ?>/css/new.css" type="text/css" rel="stylesheet"  title="black">
+
   </head>
   <body>
     <!-- navbar -->
@@ -23,27 +35,27 @@
           <a class="brand" href="#"><span style="color: #889D07 !important">Bit</span>Crunched!</a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-              <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="about.php">About</a></li>
+              <li <?=echoActiveClassIfRequestMatches("index")?>><a href="<?php echo home_url(); ?>/index.php">Home</a></li>
+              <li <?=echoActiveClassIfRequestMatches("about")?>><a href="<?php echo home_url(); ?>/about.php">About</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li class="nav-header">Residential</li>
-                  <li><a href="web-design.php">Web Design</a></li>
-                  <li><a href="#">Computer Repair</a></li>
-                  <li><a href="#">Computer Upgrades</a></li>
-                  <li><a href="#">Virus Removal</a></li>
-                  <li><a href="#">Networking</a></li>
-                  <li><a href="#">Network Security</a></li>
-                  <li><a href="#">Remote Support</a></li>
+                  <li><a href="<?php echo home_url(); ?>/web-design.php">Web Design</a></li>
+                  <li><a href="<?php echo home_url(); ?>/computer-repair.php">Computer Repair</a></li>
+                  <li><a href="<?php echo home_url(); ?>/computer-upgrades.php">Computer Upgrades</a></li>
+                  <li><a href="<?php echo home_url(); ?>/virus-removal.php">Virus Removal</a></li>
+                  <li><a href="<?php echo home_url(); ?>/networking.php">Networking</a></li>
+                  <li><a href="<?php echo home_url(); ?>/network-security.php">Network Security</a></li>
+                  <li><a href="<?php echo home_url(); ?>/remote-support.php">Remote Support</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Additional Commercial Services</li>
-                  <li><a href="#">IT Auditing</a></li>
-                  <li><a href="#">IT Consulting</a></li>
+                  <li><a href="<?php echo home_url(); ?>/it-audtiting.php">IT Auditing</a></li>
+                  <li><a href="<?php echo home_url(); ?>/it-consulting.php">IT Consulting</a></li>
                 </ul>
               </li>
-              <li><a href="#about">Blog</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li <?=echoActiveClassIfRequestMatches("/blog/index")?>><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
+              <li <?=echoActiveClassIfRequestMatches("/blog/contact")?>><a href="<?php echo home_url(); ?>/contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
